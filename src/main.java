@@ -7,13 +7,8 @@ public class main {
 
         int bonus = stoimost / mil_eqwiwalent;
 
-        System.out.println("Вами потрачено, руб.: " +stoimost);
-        System.out.println("Количество накопленных миль: " + bonus);
+        System.out.println("Вами потрачено: " + stoimost + " рублей");
+        System.out.println("Вами накоплено: " + bonus + " бонусных миль");
 
-        // Вопрос к преподавателю: как написать (синтаксис),
-        // чтобы "руб." и "миль" отображались
-        // после числа в той же строке?
-        // то есть: "Вами потрачено 29007 руб."
-
-           }
+        }
 }
