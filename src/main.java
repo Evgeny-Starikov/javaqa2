@@ -1,13 +1,13 @@
 public class main {
     public static void main(String[] args) {
 
-        int stoimost = 29007;
+        int price = 29_007;
 
-        int mil_eqwiwalent = 20;
+        int milesEquivalent = 20;
 
-        int bonus = stoimost / mil_eqwiwalent;
+        int bonus = price / milesEquivalent;
 
-        System.out.println("Вами потрачено: " + stoimost + " рублей");
+        System.out.println("Вами потрачено: " + price + " рублей");
         System.out.println("Вами накоплено: " + bonus + " бонусных миль");
 
         }
