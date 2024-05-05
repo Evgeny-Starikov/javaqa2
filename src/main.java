@@ -10,5 +10,5 @@ public class main {
         System.out.println("Вами потрачено: " + price + " рублей");
         System.out.println("Вами накоплено: " + bonus + " бонусных миль");
 
-        }
+    }
 }
